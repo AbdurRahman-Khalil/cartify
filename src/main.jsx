@@ -8,7 +8,7 @@ import App from './App';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename="/">
+    <Router basename="/cartify">
       <App />
     </Router>
   </StrictMode>,
