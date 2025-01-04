@@ -57,14 +57,14 @@ export const Product = ({ id, image, title, price }) => {
             <div className="relative text-center px-3 pt-2 min-[420px]:pt-2.5 pb-3.5">
                 <h3 className="flex-1 min-[340px]:max-[419px]:text-[1.1rem] text-[1.25rem] text-neutral-800 dark:text-neutral-100 font-semibold dark:font-normal tracking-wide dark:tracking-wider min-[340px]:max-[419px]:leading-[1.5rem] leading-[1.65rem] line-clamp-2">{title}</h3>
                 <div className="absolute min-[340px]:max-[419px]:-top-[2.95rem] -top-[3.15rem] flex space-x-2 min-[340px]:max-[419px]:right-2.5 right-3">
-                    <p className="flex items-center justify-center gap-[0.15rem] text-neutral-800 min-[340px]:max-[419px]:text-[0.93rem] text-[1.05rem] font-medium tracking-wide
-                            max-w-fit bg-neutral-50/35 backdrop-blur-[6px] px-3 py-1.5 mx-auto rounded-2xl"
+                    <p className="flex items-center justify-center gap-[0.15rem] text-neutral-100 min-[340px]:max-[419px]:text-[0.93rem] text-[1.05rem] tracking-wide
+                            max-w-fit bg-neutral-900/25 backdrop-blur-[6px] px-3 py-1.5 mx-auto ring-1 ring-neutral-50/20 rounded-2xl"
                     >
                         &#x24; <span>{price}</span>
                     </p>
                     <button
                         onClick={handleAddToCart}
-                        className="bg-emerald-400 dark:bg-emerald-500 flex items-center justify-center p-2 rounded-2xl"
+                        className="bg-emerald-500 flex items-center justify-center p-2 rounded-2xl"
                     >
                         <img src={cartIcon} className=" bri" width={22} alt="" />
                     </button>
