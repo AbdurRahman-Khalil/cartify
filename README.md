@@ -97,7 +97,7 @@ Contributions are encouraged! Follow these steps to contribute:
 - [ReactJS Documentation](https://reactjs.org/)
 - [TailwindCSS Documentation](https://tailwindcss.com/)
 - [Jotai Documentation](https://jotai.org/)
-- [TailwindCSS Motion Documentation](https://github.com/constellationx/tailwindcss-motion)
+- [TailwindCSS Motion Documentation](https://docs.rombo.co/tailwind)
 
 ---
 
