@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAtomValue } from 'jotai'
 
-import { cart } from '../store/atoms'
+import { cart } from '../atoms/atoms'
 
 import { CartedItem } from '../components/cart/CartedItem';
 import { CartBtn } from "../components/navbar/CartBtn";

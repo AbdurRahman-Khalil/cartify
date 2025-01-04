@@ -1,6 +1,6 @@
 import { useAtomValue } from "jotai";
 
-import { products } from "../store/atoms";
+import { products } from "../atoms/atoms";
 
 import shuffleProducts from "../helpers/shuffleProducts";
 

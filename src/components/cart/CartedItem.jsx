@@ -1,6 +1,6 @@
 import { useAtom, useSetAtom } from "jotai";
 
-import { cart, cartLength } from "../../store/atoms";
+import { cart, cartLength } from "../../atoms/atoms";
 
 
 

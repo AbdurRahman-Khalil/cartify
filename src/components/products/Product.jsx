@@ -1,6 +1,6 @@
 import { useAtom } from "jotai";
 
-import { cart, cartLength } from "../../store/atoms";
+import { cart, cartLength } from "../../atoms/atoms";
 
 import cartIcon from "../../assets/add_to_cart.png";
 

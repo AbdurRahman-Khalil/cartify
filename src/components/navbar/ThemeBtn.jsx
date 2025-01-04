@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import { useAtom } from "jotai";
 
-import { themeAtom } from "../../store/atoms";
+import { themeAtom } from "../../atoms/atoms";
 
 import sun from "../../assets/sun.png";
 import moon from "../../assets/moon.png";

@@ -1,6 +1,6 @@
 import { useAtomValue } from "jotai"
 
-import { themeAtom } from "../store/atoms";
+import { themeAtom } from "../atoms/atoms";
 
 
 

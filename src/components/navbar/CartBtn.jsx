@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useAtomValue } from "jotai";
 
-import { cartLength } from "../../store/atoms";
+import { cartLength } from "../../atoms/atoms";
 
 import cart_img from "../../assets/cart.png"
 
