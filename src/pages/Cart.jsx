@@ -75,7 +75,7 @@ export const Cart = () => {
             >
                 <div
                     id="cartItemsContainer"
-                    className="relative space-y-2.5 py-5 max-h-[calc(100svh-140px)] overflow-y-auto"
+                    className="relative space-y-2.5 py-5 max-h-[calc(100dvh-140px)] overflow-y-auto"
                 >
                     {
                         shoppingCart.length === 0
