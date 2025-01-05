@@ -48,7 +48,7 @@ This is a simple 🛒 Shopping Cart application built using modern web technolog
 2. Open your browser and go to:
 
    ```
-   http://localhost:5173
+   http://localhost:5173/cartify/
    ```
 
 3. Interact with the application by adding or removing items from the cart.
